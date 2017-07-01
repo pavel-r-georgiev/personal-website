@@ -11,7 +11,7 @@ const Skills = () => (
 
     <div className="skills-grid">
       <div className="skill-grid-container">
-        <h3>Comfortable using:</h3>
+        <h3>Working proficiency:</h3>
         <div className="skills-pill-box skills-working">
           {workingSkills.map(skill => (
             <div className="skill-pill">{skill}</div>
@@ -19,7 +19,7 @@ const Skills = () => (
         </div>
       </div>
       <div className="skill-grid-container">
-        <h3>Working to develop:</h3>
+        <h3>Basic proficiency:</h3>
         <div className="skills-pill-box">
           {developingSkills.map(skill => (
             <div className="skill-pill">{skill}</div>
