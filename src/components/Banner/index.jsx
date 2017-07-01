@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import ReactRotatingText from 'react-rotating-text';
-import styles from './styles.css';
 import particlesConfig from './particlesjs-config.json';
+// eslint-disable-next-line
+import styles from './styles.css';
 
+// eslint-disable-next-line
 const particlesJS = typeof window !== 'undefined' ? require('particles.js') : {};
 
 class Banner extends Component {

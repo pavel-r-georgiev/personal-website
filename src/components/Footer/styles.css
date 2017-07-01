@@ -19,6 +19,7 @@ svg:hover #circle {
 #circle {
   transition: 700ms;
 }
+
 .icon-wrapper {
   display: flex;
   flex-direction: row;

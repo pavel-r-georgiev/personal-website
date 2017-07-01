@@ -1,17 +1,20 @@
 import React from 'react';
-import { GithubCircleIcon, LinkedinIcon, TwitterIcon } from '../Icons';
-import styles from './styles.css';
+import { LinkedinIcon, TwitterIcon } from '../Icons';
+import GithubIcon from '../Icons/GithubIcon';
+import EmailIcon from '../Icons/EmailIcon';
 
-const footerIcons = [GithubCircleIcon, LinkedinIcon, TwitterIcon];
+// eslint-disable-next-line
+import styles from './styles.css';
+import config from '../../config';
+
 
 const Footer = () => (
   <footer>
     <div className="icon-wrapper">
-      {
-        footerIcons.map(icon => (
-          <a href={icon.url} className="icons">{icon.icon}</a>
-      ))
-      }
+      <a href={config.LINKED_IN_URL} className="icons"><LinkedinIcon /></a>
+      <a href={config.GITHUB_URL} className="icons"><GithubIcon /></a>
+      <a href={config.EMAIL_ME} className="icons"><EmailIcon /></a>
+      <a href={config.TWITTER} className="icons"><TwitterIcon /></a>
     </div>
     <div id="trademark">© Pavel G. All rights reserved.</div>
   </footer>

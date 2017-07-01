@@ -1,4 +1,6 @@
-export { EmailIcon } from './EmailIcon';
-export { GithubCircleIcon } from './GithubCircleIcon';
-export { LinkedinIcon } from './LinkedinIcon';
-export { TwitterIcon } from './TwitterIcon';
+import EmailIcon from './EmailIcon';
+import GithubIcon from './GithubIcon';
+import LinkedinIcon from './LinkedinIcon';
+import TwitterIcon from './TwitterIcon';
+
+export { EmailIcon, GithubIcon, LinkedinIcon, TwitterIcon };

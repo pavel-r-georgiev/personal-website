@@ -2,6 +2,7 @@ import React from 'react';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 
 import config from '../../config';
+// eslint-disable-next-line
 import styles from './styles.css';
 
 

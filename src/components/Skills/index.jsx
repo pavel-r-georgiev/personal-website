@@ -1,4 +1,6 @@
 import React from 'react';
+
+// eslint-disable-next-line
 import styles from './styles.css';
 
 const workingSkills = ['ReactJS', 'Redux', 'JavaScript', 'Java', 'HTML5', 'CSS3', 'SASS', 'Git', 'Webpack'];
