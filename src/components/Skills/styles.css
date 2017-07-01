@@ -1,0 +1,49 @@
+.skills {
+   background-color: var(--black);
+   padding: 2em;
+}
+
+.skills h3,h1{
+  color: var(--off-white);
+}
+
+.skills-grid {
+  display: flex;
+  flex-flow: row nowrap;
+  width:100%;
+    justify-content: center;
+  align-content: center;
+}
+
+.skills-grid-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.skills-pill-box{
+  display: flex;
+  flex-flow: row wrap;
+  width: 70%;
+}
+
+.skill-pill{
+  width: auto;
+  height: 1.5em;
+  padding: 5px;
+  margin: 0.5em;
+  border: 1px solid var(--accent-color-1);
+  color: var(--accent-color-1);
+}
+
+.skills-title {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: var(--off-white);
+}
+
+@media (max-width:600px){
+.skills-working {
+  border-right: 1px solid var(--accent-color-1);
+  padding-right: 2.6em;
+}
+}

@@ -1,0 +1,22 @@
+import React from 'react';
+
+import styles from './styles.css';
+
+
+const About = () => (
+  <div className="about centered">
+    <h2>Who am I?</h2>
+    <div className="grid-container">
+      <div className="text">
+      Hello, I'm <span className="highlighted">Pavel Georgiev</span> - a computer science <span className="highlighted">student</span> at the University of Edinburgh , <span className="highlighted">problem solver</span> and <span className="highlighted">software content creator</span>.
+      <br/>
+      Currently working at <a className="highlighted" href="http://content.brainnwave.com/">Brainnwave</a> as a <span className="highlighted">front-end developer</span>.
+        <br />
+          Don't be afraid to say
+          <a href="mailto:hello@pavelgeorgiev.me" className="highlighted"> hello.</a>
+      </div>
+    </div>
+  </div>
+);
+
+export default About;

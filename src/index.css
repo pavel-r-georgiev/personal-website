@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+  --off-white: #f3f3f3;
+  --black: #333;
+  --accent-color-1: #CC333F;
+  --accent-color-2: #4675A6;
+  --accent-color-3: #EE3F36;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: var(--off-white);
+}
+
+ a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+

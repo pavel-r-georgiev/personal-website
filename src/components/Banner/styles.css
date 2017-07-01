@@ -1,0 +1,34 @@
+.name {
+  font-size: calc(16px + 3vw); /*sets lower limit on font */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  font-size:calc(9px + 1vw); /*sets lower limit on font */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.particles-canvas {
+  background: linear-gradient(black, #2f2e2e)
+}
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

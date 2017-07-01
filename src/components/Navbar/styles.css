@@ -1,0 +1,32 @@
+.navbar{
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  background-color: black;
+  width: 100%;
+  z-index: 10;
+  text-transform: uppercase;
+}
+
+.navbar-link {
+  padding: 1em;
+  text-decoration: none;
+  font-size:calc(10px + 0.9vw); /*sets lower limit on font */
+  line-height: 1em;
+  color: #ECEAE8;
+}
+
+
+.navbar-link:hover{
+  color: var(--accent-color-1);
+}
+
+a:active {
+  outline:none;
+}
+
+.navbar a:hover{
+  text-decoration: none;
+}

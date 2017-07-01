@@ -1,0 +1,24 @@
+.resumeButton {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+
+  & button {
+    color: white;
+    height: 4.2em !important;
+    width: 4.2em !important;
+  }
+
+  & .button-link {
+    height: 4.2em !important;
+    width: 4.2em !important;
+    padding: 3px;
+    line-height: 4.2em!important;
+    font-size: 1em;
+  }
+}
+

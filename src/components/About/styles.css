@@ -1,0 +1,41 @@
+.about {
+  padding: 2em;
+}
+
+.about h1, h2, h3{
+  color: var(--black);
+}
+
+.headline {
+    margin: 0;
+}
+
+.grid-container {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text {
+  order: 2;
+  flex-grow: 2;
+  font-size:calc(12px + 0.5vw);
+  line-height: 2em;
+  padding: 0.5em;
+  padding: 2em;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+@media (max-width: 990px) {
+  .grid-container {
+    flex-direction: column;
+    align-items:  center;
+  }
+}
+
+.highlighted {
+  color: var(--accent-color-1);
+}
+
