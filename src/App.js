@@ -6,18 +6,15 @@ import Skills from './components/Skills';
 import Footer from './components/Footer';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Navbar />
-        <Banner title="Pavel Georgiev"/>
-        <About />
-        <Skills />
-        <Footer />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <Navbar />
+    <Banner title="Pavel Georgiev" />
+    <About />
+    <Skills />
+    <Footer />
+  </div>
+  );
+
 
 export default App;

@@ -4,8 +4,8 @@ import styles from './styles.css';
 
 const Navbar = () => (
   <div className="navbar">
-  {links.map((link)=>(
-     <a tabIndex={1} className="navbar-link" href={link.url}>{link.title}</a>
+    {links.map(link => (
+      <a tabIndex={1} className="navbar-link" href={link.url}>{link.title}</a>
    ))}
   </div>
   );

@@ -6,10 +6,6 @@ import particlesConfig from './particlesjs-config.json';
 const particlesJS = typeof window !== 'undefined' ? require('particles.js') : {};
 
 class Banner extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     window.particlesJS('particles-js', particlesConfig);
   }
@@ -32,7 +28,7 @@ class Banner extends Component {
           <div className="particles-canvas" id="particles-js" style={{ height: '100%' }} />
           <div style={titleStyles}>
             <div className="name"> {this.props.title} </div>
-             <div className="subtitle"> <ReactRotatingText items={subtitles} pause={2500} /> </div>
+            <div className="subtitle"> <ReactRotatingText items={subtitles} pause={2500} /> </div>
           </div>
         </div>
       </div>

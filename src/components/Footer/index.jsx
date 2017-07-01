@@ -1,15 +1,15 @@
 import React from 'react';
-import { footerIcons } from '../Icons';
+import { GithubCircleIcon, LinkedinIcon, TwitterIcon } from '../Icons';
 import styles from './styles.css';
 
+const footerIcons = [GithubCircleIcon, LinkedinIcon, TwitterIcon];
 
-//TODO: FIX FOOTER icons
 const Footer = () => (
   <footer>
     <div className="icon-wrapper">
       {
-        footerIcons.map((icon) => (
-        <a href={icon.url} className="icons">{icon.icon}</a>
+        footerIcons.map(icon => (
+          <a href={icon.url} className="icons">{icon.icon}</a>
       ))
       }
     </div>
