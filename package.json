@@ -7,7 +7,8 @@
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-rotating-text": "^1.2.0"
+    "react-rotating-text": "^1.2.0",
+    "react-scroll": "^1.5.4"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^15.0.1",

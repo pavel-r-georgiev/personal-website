@@ -19,8 +19,10 @@
 }
 
 
+.navbar-link-active, 
 .navbar-link:hover{
   color: var(--accent-color-1);
+  cursor: pointer;
 }
 
 a:active {

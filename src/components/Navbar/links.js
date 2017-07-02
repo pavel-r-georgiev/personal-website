@@ -3,16 +3,22 @@ import config from '../../config';
 const links = [
   {
     title: 'About',
-    url: '/about',
+    scroll: true,
+    url: 'about',
   },
   {
     title: 'Skills',
-    url: '/skills',
+    scroll: true,
+    url: 'skills',
+  },
+  {
+    title: 'Projects',
+    scroll: true,
+    url: 'projects',
   },
   {
     title: 'Resume',
     url: config.RESUME_LINK,
-    new_tab: true,
   },
 ];
 

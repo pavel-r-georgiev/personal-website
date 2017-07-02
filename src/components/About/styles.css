@@ -1,9 +1,10 @@
 .about {
-  padding: 2em;
+  padding: 4em 2em;
 }
 
 .about h1, h2, h3{
   color: var(--black);
+  margin: 0;
 }
 
 .headline {
@@ -22,8 +23,8 @@
   flex-grow: 2;
   font-size:calc(12px + 0.5vw);
   line-height: 2em;
-  padding: 0.5em;
   padding: 2em;
+  padding-bottom: 0;
   box-sizing: border-box;
   text-align: left;
 }

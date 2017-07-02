@@ -27,7 +27,7 @@ const projects = [
   },
   {
     title: 'react-redux-barebone',
-    description: 'Barebone React and Redux equiped with ES6, Babel and handy Webpack config.',
+    description: 'Barebone React and Redux boilerplate equiped with goodies like ES6, Babel and a handy Webpack config.',
     tags: ['ReactJS', 'Redux', 'Webpack'],
     links: [
       {
