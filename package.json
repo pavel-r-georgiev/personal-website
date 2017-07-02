@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "particles.js": "^2.0.0",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-rotating-text": "^1.2.0",
-    "react-router": "^4.1.1"
+    "react-rotating-text": "^1.2.0"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^15.0.1",
