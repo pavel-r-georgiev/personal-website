@@ -1,3 +1,5 @@
+import config from '../../config';
+
 const links = [
   {
     title: 'About',
@@ -6,6 +8,11 @@ const links = [
   {
     title: 'Skills',
     url: '/skills',
+  },
+  {
+    title: 'Resume',
+    url: config.RESUME_LINK,
+    new_tab: true,
   },
 ];
 

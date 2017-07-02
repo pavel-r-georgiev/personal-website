@@ -13,7 +13,7 @@
 .navbar-link {
   padding: 1em;
   text-decoration: none;
-  font-size:calc(10px + 0.9vw); /*sets lower limit on font */
+  font-size:calc(9px + 0.7vw); /*sets lower limit on font */
   line-height: 1em;
   color: #ECEAE8;
 }
