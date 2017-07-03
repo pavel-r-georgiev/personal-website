@@ -10,8 +10,7 @@
 .skills-grid {
   display: flex;
   flex-flow: row nowrap;
-  width:100%;
-    justify-content: center;
+  justify-content: center;
   align-content: center;
   padding: 4em 2em 2em 2em;
 }
@@ -44,8 +43,11 @@
 }
 
 @media (max-width:600px){
-.skills-working {
-  border-right: 1px solid var(--accent-color-1);
-  padding-right: 2.6em;
+.skills-grid {
+  flex-flow: column nowrap;
+  padding: 2em;
+}
+.skill-grid-container {
+  padding: 2em 2em 0 2em;
 }
 }

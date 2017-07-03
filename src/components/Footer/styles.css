@@ -3,6 +3,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 1.5em;
 }
 
 .icons {
@@ -17,6 +18,7 @@ svg:hover #circle {
 }
 
 #circle {
+  fill: var(--black);
   transition: 700ms;
 }
 

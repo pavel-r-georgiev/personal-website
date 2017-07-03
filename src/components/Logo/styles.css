@@ -1,0 +1,96 @@
+.brand {
+  align-self: flex-start;
+  width: 200px;
+  height: 200px;
+  top: -5.1em;
+  left: -5em;
+  position: absolute;
+  transform: scale(0.7);
+}
+
+.brand:before {
+  background-size: 100% 100%;
+  content: "PG.";
+  opacity: .8;
+  font-weight: 400;
+  line-height: 200px;
+  color: var(--accent-color-1);
+  font-size: 2.2em;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 0 4px;
+  position: absolute;
+  z-index: 99999 !important;
+}
+
+.logo{
+  animation: 5s linear infinite;
+  animation-name: rotate-0;
+  animation-delay: 0s;
+  transform-origin: 50% 50%;
+  transform: rotate(0deg);
+}
+
+
+svg path{
+  positon:absolute;
+  fill:none;
+  top:0;
+  left:0;
+  mix-blend-mode: multiply;
+  transform-origin: 50% 50%;
+  transform: rotate(0deg) ;
+  animation: 20s linear infinite;
+}
+
+.logo svg path:nth-child(1) {
+  opacity: .8;
+  stroke-width: 3;
+  animation-name: rotate-1;
+  animation-delay: .5s;
+}
+.logo svg path:nth-child(2) {
+  opacity: .6;
+  stroke-width: 2;
+  animation-name: rotate-2;
+  animation-delay: .6s;
+}
+.logo svg path:nth-child(3) {
+  opacity: .8;
+  stroke-width: 3;
+  animation-name: rotate-3;
+  animation-delay: .7s;
+}
+
+
+@keyframes scale-1 {
+  0%{
+    transform: scale(1);
+  }50% {
+    transform: scale(.9);
+  }100% {
+    transform: scale(1);
+  } 
+}
+
+@keyframes rotate-0 {
+  from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+} 
+
+@keyframes rotate-1 {
+  from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes rotate-2 {
+  from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
+
+@keyframes rotate-3 {
+  from { transform: rotate(0deg); }
+    to { transform: rotate(0deg); }
+}

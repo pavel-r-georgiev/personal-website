@@ -8,14 +8,15 @@
   width: 100%;
   z-index: 10;
   text-transform: uppercase;
+  overflow: hidden;
 }
 
 .navbar-link {
   padding: 1em;
   text-decoration: none;
-  font-size:calc(9px + 0.7vw); /*sets lower limit on font */
+  font-size:calc(9px + 0.5vw); /*sets lower limit on font */
   line-height: 1em;
-  color: #ECEAE8;
+  color: var(--off-white);
 }
 
 
