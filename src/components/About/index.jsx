@@ -2,6 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 // eslint-disable-next-line
 import styles from './styles.css';
+import config from '../../config';
 
 
 const About = () => (
@@ -12,10 +13,10 @@ const About = () => (
         <div className="text">
       Hello, I&apos;m <span className="highlighted">Pavel Georgiev</span> - a computer science <span className="highlighted">student</span> at the University of Edinburgh , <span className="highlighted">problem solver</span> and <span className="highlighted">software content creator</span>.
       <br />
-      Currently working at <a className="highlighted" href="http://content.brainnwave.com/">Brainnwave</a> as a <span className="highlighted">front-end developer</span>.
+      Currently working at <a className="highlighted" href={config.BRAINNWAVE}>Brainnwave</a> as a <span className="highlighted">front-end developer</span>.
         <br />
           Don&apos;t be afraid to say
-          <a href="mailto:hello@pavelgeorgiev.me" className="highlighted"> hello.</a>
+          <a href={config.EMAIL_ME} className="highlighted"> hello.</a>
         </div>
       </div>
     </div>

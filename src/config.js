@@ -4,6 +4,7 @@ const config = {
   GITHUB_URL: 'https://github.com/Codingwizardirl',
   EMAIL_ME: 'mailto:hello@pavelgeorgiev.me',
   TWITTER: 'https://twitter.com/prgeorgiev',
+  BRAINNWAVE: 'https://brainnwave.com/',
 };
 
 export default config;

@@ -10,8 +10,8 @@ const renderLinks = links => (
     {
     links.map(link => (
       link.title === 'github' ?
-        <a href={link.link} rel="noopener noreferrer" target="_blank" className="github-link" key={link.link}><GithubIcon /></a> :
-        <a href={link.link} rel="noopener noreferrer" target="_blank" className="button" key={link.link}>{link.title}</a>
+        <a key={link.link} href={link.link} rel="noopener noreferrer" target="_blank" className="github-link"><GithubIcon /></a> :
+        <a key={link.link} href={link.link} rel="noopener noreferrer" target="_blank" className="button">{link.title}</a>
      ))
     }
   </div>

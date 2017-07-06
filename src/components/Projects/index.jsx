@@ -12,6 +12,7 @@ const Projects = () => (
       <div className="projects-container">
         {projects.map(project => (
           <Project
+            key={project.title}
             {...project}
           />
       ))}

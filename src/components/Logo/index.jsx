@@ -10,14 +10,14 @@ const secondaryColor = '#f3f3f3';
 const Logo = (props) => {
   const willEnter = () => ({
     opacity: 1,
-    transform: 50,
+    transform: 0,
     scale: 0.7,
   });
 
   const willLeave = () => ({
-    opacity: spring(0),
+    opacity: spring(0, presets.wobbly),
     transform: spring(-50, presets.wobbly),
-    scale: spring(0),
+    scale: spring(0, presets.gentle),
   });
 
   const LOGO = (

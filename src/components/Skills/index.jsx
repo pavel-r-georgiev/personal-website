@@ -16,7 +16,7 @@ const Skills = () => (
           <h3>Working proficiency:</h3>
           <div className="skills-pill-box skills-working">
             {workingSkills.map(skill => (
-              <div className="skill-pill">{skill}</div>
+              <div className="skill-pill" key={skill}>{skill}</div>
           ))}
           </div>
         </div>
@@ -24,7 +24,7 @@ const Skills = () => (
           <h3>Basic proficiency:</h3>
           <div className="skills-pill-box">
             {developingSkills.map(skill => (
-              <div className="skill-pill">{skill}</div>
+              <div className="skill-pill" key={skill}>{skill}</div>
           ))}
           </div>
         </div>
