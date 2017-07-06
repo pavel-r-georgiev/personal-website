@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 .brand {
   align-self: flex-start;
   width: 200px;
@@ -16,7 +17,7 @@
   line-height: 200px;
   color: var(--accent-color-1);
   font-size: 2.2em;
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: "Architects Daughter", "Roboto", "Open Sans", sans-serif;
   text-align: center;
   width: 200px;
   height: 200px;
@@ -34,7 +35,7 @@
 }
 
 
-svg path{
+.logo > svg > path{
   positon:absolute;
   fill:none;
   top:0;

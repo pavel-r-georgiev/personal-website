@@ -1,12 +1,27 @@
 import React from 'react';
+import { TransitionMotion, spring, presets } from 'react-motion';
 
 // eslint-disable-next-line
 import styles from './styles.css';
 
 const color = '#CC333F';
 const secondaryColor = '#f3f3f3';
-const Logo = () => (
-  <div className="brand">
+
+const Logo = (props) => {
+  const willEnter = () => ({
+    opacity: 1,
+    transform: 50,
+    scale: 0.7,
+  });
+
+  const willLeave = () => ({
+    opacity: spring(0),
+    transform: spring(-50, presets.wobbly),
+    scale: spring(0),
+  });
+
+  const LOGO = (
+
     <div className="logo">
       <svg width="200px" height="200px" >
         <path
@@ -31,7 +46,40 @@ const Logo = () => (
         />
       </svg>
     </div>
-  </div>
+    );
+
+  return (
+    <TransitionMotion
+      styles={props.hidden ? [] : [{
+        key: 'child',
+        data: {},
+        style: {
+          transform: spring(0, presets.wobbly),
+          opacity: spring(1, presets.wobbly),
+          scale: spring(0.7, presets.gentle),
+        },
+      }]}
+      willEnter={willEnter}
+      willLeave={willLeave}
+    >
+      {items => (
+        <div>
+          {items.map(item => (
+            <div
+              className="brand" key={item.key}
+              style={{
+                opacity: item.style.opacity,
+                transform: `translate(${item.style.transform}%) scale(${item.style.scale})`,
+              }}
+            >
+              {LOGO}
+            </div>
+                  ))}
+        </div>
+            )}
+    </TransitionMotion>
   );
+};
+
 
 export default Logo;
