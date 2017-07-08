@@ -12,12 +12,12 @@ footer{
   margin: 0.5em 0.5em 0 0.5em;
 }
 
-svg:hover #circle {
+.icons svg:hover #circle{
   fill: var(--accent-color-1);
   cursor: pointer;
 }
 
-#circle {
+.icons svg #circle {
   fill: var(--black);
   transition: 700ms;
 }

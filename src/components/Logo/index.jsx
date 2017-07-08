@@ -9,8 +9,8 @@ const secondaryColor = '#f3f3f3';
 
 const Logo = (props) => {
   const willEnter = () => ({
-    opacity: 1,
-    transform: 0,
+    opacity: 0,
+    transform: -50,
     scale: 0.7,
   });
 

@@ -63,13 +63,14 @@
   cursor: pointer;
 }
 
-.github-link > svg  {
+.github-link svg {
   height: 40px;
   width: 40px;
   fill: var(--off-white);
+  transition: 700ms;
 }
 
-.github-link > svg:hover #circle {
+.github-link svg:hover {
   fill: var(--black);
 }
 
