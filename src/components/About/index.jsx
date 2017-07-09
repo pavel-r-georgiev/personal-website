@@ -11,7 +11,7 @@ const About = () => (
       <h2>Who am I?</h2>
       <div className="grid-container">
         <div className="text">
-      Hello, I&apos;m <span className="highlighted">Pavel Georgiev</span> - a computer science <span className="highlighted">student</span> at the University of Edinburgh , <span className="highlighted">problem solver</span> and <span className="highlighted">software content creator</span>.
+      Hello, I&apos;m <span className="highlighted">Pavel Georgiev</span> - a computer science <span className="highlighted">student</span> at the University of Edinburgh , <span className="highlighted">problem solver</span> and a <span className="highlighted">software engineer</span>.
       <br />
       Currently working at <a className="highlighted" href={config.BRAINNWAVE}>Brainnwave</a> as a <span className="highlighted">front-end developer</span>.
         <br />
