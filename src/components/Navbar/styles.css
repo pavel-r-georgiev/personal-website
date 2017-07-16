@@ -26,7 +26,8 @@
   cursor: pointer;
 }
 
-a:active {
+a:active,
+a:focus {
   outline:none;
 }
 
