@@ -3,7 +3,7 @@ import { Element } from 'react-scroll';
 // eslint-disable-next-line
 import styles from './styles.css';
 
-const workingSkills = ['ReactJS', 'Redux', 'JavaScript', 'Java', 'HTML5', 'CSS3', 'SASS', 'Git', 'Webpack'];
+const workingSkills = ['ReactJS', 'Redux', 'JavaScript', 'Java', 'HTML5', 'CSS3', 'SASS', 'AWS', 'Git', 'Webpack'];
 const developingSkills = ['Python', 'Android', 'MongoDB', 'PostgreSQL'];
 
 const Skills = () => (

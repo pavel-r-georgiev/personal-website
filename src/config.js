@@ -5,6 +5,7 @@ const config = {
   EMAIL_ME: 'mailto:hello@pavelgeorgiev.me',
   TWITTER: 'https://twitter.com/prgeorgiev',
   BRAINNWAVE: 'https://brainnwave.com/',
+  AMAZON_BLOG: 'https://blog.aboutamazon.com/',
 };
 
 export default config;

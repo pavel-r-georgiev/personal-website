@@ -15,6 +15,17 @@ const projects = [
     ],
   },
   {
+    title: 'Songle',
+    description: 'Location based Android app written in Kotlin. Developed for an university course.',
+    tags: ['Kotlin', 'Android'],
+    links: [
+      {
+        title: 'github',
+        link: 'https://github.com/Codingwizardirl/songle',
+      },
+    ],
+  },
+  {
     title: 'Why so serious?',
     description: 'Generates Spotify playlist based on emotions in a picture.',
     tags: ['ReactJS', 'Redux'],
@@ -71,7 +82,7 @@ const projects = [
   },
   {
     title: 'Rain',
-    description: '2-D Game Engine',
+    description: 'My very first programming endeavour. 2-D Game Engine.',
     tags: ['Java'],
     links: [
       {

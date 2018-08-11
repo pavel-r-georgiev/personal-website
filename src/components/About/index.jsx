@@ -11,9 +11,9 @@ const About = () => (
       <h2>Who am I?</h2>
       <div className="grid-container">
         <div className="text">
-      Hello, I&apos;m <span className="highlighted">Pavel Georgiev</span> - a computer science <span className="highlighted">student</span> at the University of Edinburgh , <span className="highlighted">problem solver</span> and a <span className="highlighted">software engineer</span>.
+      Hello, I&apos;m <span className="highlighted">Pavel</span> - a computer science <span className="highlighted">student</span> at the University of Edinburgh , <span className="highlighted">problem solver</span> and a <span className="highlighted">software engineer</span>.
       <br />
-      Currently working at <a className="highlighted" href={config.BRAINNWAVE}>Brainnwave</a> as a <span className="highlighted">front-end developer</span>.
+      Currently interning at <a className="highlighted" href={config.AMAZON_BLOG}>Amazon</a> as a <span className="highlighted">Software Development Engineer</span>.
         <br />
           Don&apos;t be afraid to say
           <a href={config.EMAIL_ME} className="highlighted"> hello.</a>
