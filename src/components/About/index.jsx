@@ -13,7 +13,7 @@ const About = () => (
         <div className="text">
       Hello, I&apos;m <span className="highlighted">Pavel</span> - a computer science <span className="highlighted">student</span> at the University of Edinburgh , <span className="highlighted">problem solver</span> and a <span className="highlighted">software engineer</span>.
       <br />
-      Currently interning at <a className="highlighted" href={config.AMAZON_BLOG}>Amazon</a> as a <span className="highlighted">Software Development Engineer</span>.
+      Last seen interning at <a className="highlighted" href={config.AMAZON_BLOG}>Amazon</a> as a <span className="highlighted">Software Development Engineer</span>.
         <br />
           Don&apos;t be afraid to say
           <a href={config.EMAIL_ME} className="highlighted"> hello.</a>

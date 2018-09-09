@@ -6,7 +6,7 @@ const projects = [
     links: [
       {
         title: 'github',
-        link: 'https://github.com/Codingwizardirl/personal-website',
+        link: 'https://github.com/pavel-r-georgiev/personal-website',
       },
       // {
       //   title: 'Link',
@@ -21,7 +21,7 @@ const projects = [
     links: [
       {
         title: 'github',
-        link: 'https://github.com/Codingwizardirl/songle',
+        link: 'https://github.com/pavel-r-georgiev/songle',
       },
     ],
   },
@@ -32,7 +32,7 @@ const projects = [
     links: [
       {
         title: 'github',
-        link: 'https://github.com/Codingwizardirl/why-so-serious',
+        link: 'https://github.com/pavel-r-georgiev/why-so-serious',
       },
     ],
   },
@@ -43,7 +43,7 @@ const projects = [
     links: [
       {
         title: 'github',
-        link: 'https://github.com/Codingwizardirl/machine-learning-classification',
+        link: 'https://github.com/pavel-r-georgiev/machine-learning-classification',
       },
     ],
   },
@@ -54,7 +54,7 @@ const projects = [
     links: [
       {
         title: 'github',
-        link: 'https://github.com/Codingwizardirl/closest-pair-algorithm',
+        link: 'https://github.com/pavel-r-georgiev/closest-pair-algorithm',
       },
     ],
   },
@@ -65,7 +65,7 @@ const projects = [
     links: [
       {
         title: 'github',
-        link: 'https://github.com/Codingwizardirl/react-redux-barebone-boilerplate',
+        link: 'https://github.com/pavel-r-georgiev/react-redux-barebone-boilerplate',
       },
     ],
   },
@@ -76,7 +76,7 @@ const projects = [
     links: [
       {
         title: 'github',
-        link: 'https://github.com/Codingwizardirl/tree-search-algorithms',
+        link: 'https://github.com/pavel-r-georgiev/tree-search-algorithms',
       },
     ],
   },
@@ -87,7 +87,7 @@ const projects = [
     links: [
       {
         title: 'github',
-        link: 'https://github.com/Codingwizardirl/2D-Game-Project',
+        link: 'https://github.com/pavel-r-georgiev/2D-Game-Project',
       },
     ],
   },
