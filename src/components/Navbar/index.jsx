@@ -12,7 +12,7 @@ class Navbar extends Component {
     super(props);
     this.handleScroll = this.handleScroll.bind(this);
     this.state = {
-      hidden: true,
+      logoHidden: true,
     };
   }
 
@@ -25,22 +25,27 @@ class Navbar extends Component {
   }
 
   handleScroll(event) {
-    let hidden = null;
-    if (document.body.scrollTop < 200) {
-      hidden = true;
+    let logoHidden = null;
+    const distanceFromTop = window.pageYOffset ||
+                            document.documentElement.scrollTop ||
+                            document.body.scrollTop ||
+                            0;
+
+    if (distanceFromTop < 200) {
+      logoHidden = true;
     } else {
-      hidden = false;
+      logoHidden = false;
     }
 
     this.setState({
-      hidden,
+      logoHidden,
     });
   }
 
   render() {
     return (
       <div className="navbar">
-        <Logo hidden={this.state.hidden} />
+        <Logo hidden={this.state.logoHidden} />
         {links.map(link => (
       link.scroll ?
         <Link className="navbar-link" activeClass="navbar-link-active" to={link.url} spy smooth key={link.url}>
