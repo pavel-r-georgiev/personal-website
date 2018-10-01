@@ -6,6 +6,13 @@
   --accent-color-1: #CC333F;
   --accent-color-2: #4675A6;
   --accent-color-3: #EE3F36;
+  --brown: #884E2C;
+  --gray: #EAEFDD;
+  --light-gray: #bdbdbd;
+  --red: #CD5B4D;
+  --white: #FFF;
+  --yellow: #FFDF50;
+  --yellow-dark: #F1AD41;
 }
 
 body {
@@ -16,7 +23,7 @@ body {
   background-color: var(--off-white);
 }
 
- a {
+a {
   text-decoration: none;
 }
 
