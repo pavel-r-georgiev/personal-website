@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import About from './components/About';
 import Skills from './components/Skills';
-import Projects from './components/Projects';
 import Footer from './components/Footer';
 import './App.css';
 import EasterEgg from './components/EasterEgg/EasterEgg';
@@ -22,7 +21,7 @@ const AppComponent = () => (
     <Banner title="Pavel Georgiev" />
     <About />
     <Skills />
-    <Projects />
+    {/* <Projects /> */}
     <Footer />
   </div>
   );

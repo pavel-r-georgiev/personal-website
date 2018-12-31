@@ -11,11 +11,11 @@ const links = [
     scroll: true,
     url: 'skills',
   },
-  {
-    title: 'Projects',
-    scroll: true,
-    url: 'projects',
-  },
+  // {
+  //   title: 'Projects',
+  //   scroll: true,
+  //   url: 'projects',
+  // },
   {
     title: 'Resume',
     url: config.RESUME_LINK,
